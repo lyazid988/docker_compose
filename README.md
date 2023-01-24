@@ -13,14 +13,14 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 
 #### 1- Une image docker c'est quoi ?
 
-#### 2- Les images des differents services services
+#### 2- Les images des differents services 
 
-##### 2.1 - Image wireguard:
-##### 2.2 - Image Samba:
-##### 2.3 - Image Ldap:
-##### 2.4 - Image Gitlab:
-##### 2.5 - Image Bitwarden:
-##### 2.6 - Image Caddy:
+##### 2.1 - Image wireguard
+##### 2.2 - Image Samba
+##### 2.3 - Image Ldap
+##### 2.4 - Image Gitlab
+##### 2.5 - Image Bitwarden
+##### 2.6 - Image Caddy
 
 ### III - Création du fichier docker-compose:
 
