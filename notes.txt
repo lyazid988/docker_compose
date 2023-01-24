@@ -1,0 +1,3 @@
+A faire pour la prochaine seances :
+
+- Partie networking de docker compose (bridge, cartes réseau...etc)
