@@ -56,6 +56,11 @@ Compose fonctionne dans tous les environnements : production, staging, développ
 
 Une image Docker est un modèle en lecture seule, utiliser pour créer des conteneurs Docker. Elle est composée de plusieurs couches empaquetant toutes les installations, dépendances, bibliothèques, processus et codes d'application nécessaires pour un environnement de conteneur pleinement opérationnel.
 
+### Les images des differents services:
+
+#### 1- Image wireguard:
+
+
 ## Création du fichier docker-compose:
 
 ### 1- Partie wireguard:
