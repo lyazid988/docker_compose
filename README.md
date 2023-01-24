@@ -38,7 +38,7 @@ Compose fonctionne dans tous les environnements : production, staging, développ
     
 ## Création du fichier docker-compose:
 
-### 1- Partie wireguard
+### 1- Partie wireguard:
 
 ```yaml
   wireguard:
@@ -69,5 +69,29 @@ Compose fonctionne dans tous les environnements : production, staging, développ
     restart: unless-stopped
 ```
 
+### 2- Partie Samba:
+```yaml
+  samba:
+    image: dperson/samba
+    environment:
+      TZ: 'EST5EDT'
+    networks:
+      - default
+    ports:
+      - "137:137/udp"
+      - "138:138/udp"
+      - "139:139/tcp"
+      - "445:445/tcp"
+    read_only: true
+    tmpfs:
+      - /tmp
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    volumes:
+      - /mnt:/mnt:z
+      - /mnt2:/mnt2:z
+    command: '-s "Mount;/mnt" -s "Bobs Volume;/mnt2;yes;no;no;bob" -u "bob;bobspasswd" -p'
+```
 
 
