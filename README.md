@@ -24,17 +24,17 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 
 ### III - Création du fichier docker-compose:
 
-#### 1- Partie wireguard
+#### 1- Config wireguard
 
-#### 2- Partie samba
+#### 2- Config samba
 
-#### 3- Parite ldap
+#### 3- Config ldap
 
-#### 4- Partie gitlab 
+#### 4- Config gitlab 
 
-#### 5- Partie bitwarden
+#### 5- Config bitwarden
 
-#### 6- Partie serveur caddy
+#### 6- Config serveur caddy
 
 ##  Docker-compose c'est quoi ? et comment ça fonctionne ?
 
