@@ -131,7 +131,7 @@ Compose fonctionne dans tous les environnements : production, staging, développ
     restart: always
     hostname: 'gitlab.example.com'
     environment:
-      GITLAB_OMNIBUS_CONFIG: |
+      GITLAB_OMNIBUS_CONFIG:
         external_url 'https://gitlab.example.com'
         # Add any other gitlab.rb configuration here, each on its own line
     ports:
