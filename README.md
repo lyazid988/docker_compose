@@ -9,7 +9,7 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 
 ### I - Docker-compose c'est quoi ? et comment ça fonctionne ?
 
-### II - Création du fichier docker-compose demandé:
+### II - Création du fichier docker-compose:
 
 #### 1- Partie wireguard
 
@@ -27,13 +27,18 @@ Compose est un outil permettant de définir et d'exécuter des applications Dock
 
 Compose fonctionne dans tous les environnements : production, staging, développement, test, ainsi que les flux de travail CI. Il dispose également de commandes pour gérer l'ensemble du cycle de vie de votre application :
 
-    Démarrer, arrêter et reconstruire les services
+    1- Démarrer, arrêter et reconstruire les services
     
-    Afficher l'état des services en cours d'exécution
+    2- Afficher l'état des services en cours d'exécution
     
-    Diffuser la sortie du journal des services en cours d'exécution
+    3- Diffuser la sortie du journal des services en cours d'exécution
     
-    Exécuter une commande ponctuelle sur un service
+    4- Exécuter une commande ponctuelle sur un service
+    
+    
+## Création du fichier docker-compose:
+
+### 1- Partie wireguard
 
 
 
