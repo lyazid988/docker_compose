@@ -9,7 +9,9 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 
 ### I - Docker-compose c'est quoi ? et comment ça fonctionne ?
 
-### II - Création du fichier docker-compose:
+### II - Trouver les images :
+
+### III - Création du fichier docker-compose:
 
 #### 1- Partie wireguard
 
