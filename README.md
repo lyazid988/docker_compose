@@ -28,8 +28,11 @@ Compose est un outil permettant de définir et d'exécuter des applications Dock
 Compose fonctionne dans tous les environnements : production, staging, développement, test, ainsi que les flux de travail CI. Il dispose également de commandes pour gérer l'ensemble du cycle de vie de votre application :
 
     Démarrer, arrêter et reconstruire les services
+    
     Afficher l'état des services en cours d'exécution
+    
     Diffuser la sortie du journal des services en cours d'exécution
+    
     Exécuter une commande ponctuelle sur un service
 
 
