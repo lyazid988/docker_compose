@@ -21,4 +21,8 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 
 #### 5- Partie bitwarden
 
+##  Docker-compose c'est quoi ? et comment ça fonctionne ?
+
+Docker Compose est un outil destiné à définir et exécuter des applications Docker à plusieurs conteneurs. Dans Compose, vous utilisez un fichier YAML pour configurer les services de votre application. Ensuite, vous créez et vous démarrez tous les services à partir de votre configuration en utilisant une seule commande
+
 
