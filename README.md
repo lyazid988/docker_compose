@@ -23,6 +23,14 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 
 ##  Docker-compose c'est quoi ? et comment ça fonctionne ?
 
-Docker Compose est un outil destiné à définir et exécuter des applications Docker à plusieurs conteneurs. Dans Compose, vous utilisez un fichier YAML pour configurer les services de votre application. Ensuite, vous créez et vous démarrez tous les services à partir de votre configuration en utilisant une seule commande
+Compose est un outil permettant de définir et d'exécuter des applications Docker multi-conteneurs. Avec Compose, vous utilisez un fichier YAML pour configurer les services de votre application. Ensuite, avec une seule commande, vous créez et démarrez tous les services de votre configuration.
+
+Compose fonctionne dans tous les environnements : production, staging, développement, test, ainsi que les flux de travail CI. Il dispose également de commandes pour gérer l'ensemble du cycle de vie de votre application :
+
+    Démarrer, arrêter et reconstruire les services
+    Afficher l'état des services en cours d'exécution
+    Diffuser la sortie du journal des services en cours d'exécution
+    Exécuter une commande ponctuelle sur un service
+
 
 
