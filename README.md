@@ -3,13 +3,24 @@
 
 ## Introduction
 
-L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de services (wireguard, samba, antivirus, ldap, gitlab et bitwarden). Une interconnection entre samba, ldap, gitlab et bitwarden à été demandée. Un fichier caddy est demandé.
+L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de services (wireguard, samba, antivirus, ldap, gitlab, bitwarden et un serveur caddy). Une interconnection entre samba, ldap, gitlab et bitwarden à été demandée.
 
 ## Sommaire:
 
 ### I - Docker-compose c'est quoi ? et comment ça fonctionne ?
 
 ### II - Trouver les images :
+
+#### 1- Une image docker c'est quoi ?
+
+#### 2- Les images des differents services services
+
+##### 2.1 - Image wireguard:
+##### 2.2 - Image Samba:
+##### 2.3 - Image Ldap:
+##### 2.4 - Image Gitlab:
+##### 2.5 - Image Bitwarden:
+##### 2.6 - Image Caddy:
 
 ### III - Création du fichier docker-compose:
 
@@ -22,6 +33,8 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 #### 4- Partie gitlab 
 
 #### 5- Partie bitwarden
+
+#### 6- Partie serveur caddy
 
 ##  Docker-compose c'est quoi ? et comment ça fonctionne ?
 
@@ -37,7 +50,12 @@ Compose fonctionne dans tous les environnements : production, staging, développ
     
     4- Exécuter une commande ponctuelle sur un service
     
-    
+## Trouver les images docker:
+
+### Une image docker c'est quoi ?
+
+Une image Docker est un modèle en lecture seule, utiliser pour créer des conteneurs Docker. Elle est composée de plusieurs couches empaquetant toutes les installations, dépendances, bibliothèques, processus et codes d'application nécessaires pour un environnement de conteneur pleinement opérationnel.
+
 ## Création du fichier docker-compose:
 
 ### 1- Partie wireguard:
