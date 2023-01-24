@@ -3,7 +3,7 @@
 
 ## Introduction
 
-L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de services (wireguard, samba, antivirus, ldap, gitlab, bitwarden et un serveur caddy). Une interconnection entre samba, ldap, gitlab et bitwarden à été demandée.
+L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de services (wireguard, samba, antivirus, ldap, gitlab, bitwarden et un serveur caddy). Une interconnection entre samba, ldap, gitlab et bitwarden est demandée.
 
 ## Sommaire:
 
