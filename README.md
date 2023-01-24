@@ -44,7 +44,7 @@ Compose fonctionne dans tous les environnements : production, staging, développ
   wireguard:
     image: lscr.io/linuxserver/wireguard:latest
     container_name: wireguard
-    cap_add:
+    cap_add: // donner des capacités sau conteneurs
       - NET_ADMIN
       - SYS_MODULE
     environment:
@@ -65,11 +65,12 @@ Compose fonctionne dans tous les environnements : production, staging, développ
     ports:
       - 51820:51820/udp
     sysctls:
-      - net.ipv4.conf.all.src_valid_mark=1
+      - net.ipv4.conf.all.src_valid_mark=1 // à creuser
     restart: unless-stopped
 ```
 
 ### 2- Partie Samba:
+
 ```yaml
   samba:
     image: dperson/samba
