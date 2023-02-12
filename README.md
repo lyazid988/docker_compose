@@ -72,7 +72,7 @@ Une image Docker est un modèle en lecture seule, utiliser pour créer des conte
       - net.ipv4.conf.all.src_valid_mark=1 // à creuser
     restart: unless-stopped
 ```
-- image : on precise l'image utilisé
+= image : on precise l'image utilisé
 - container_name : on donne un nom au conteneur
 - cap_add : rajouter des capacités au conteneur
 - environnement:
