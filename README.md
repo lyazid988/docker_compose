@@ -76,7 +76,7 @@ Une image Docker est un modèle en lecture seule, utiliser pour créer des conte
 - container_name : on donne un nom au conteneur
 - cap_add : rajouter des capacités au conteneur
 - environnement:
-  -PUID,PGID: Les variables PUID et PGID sont un moyen de translater un utilisateur à l'intérieur du conteneur vers un utilisateur sur l'hôte. Prenons Linuxserver, ils utilisent généralement un utilisateur "abc" à l'intérieur du conteneur
+--PUID,PGID: Les variables PUID et PGID sont un moyen de translater un utilisateur à l'intérieur du conteneur vers un utilisateur sur l'hôte. Prenons Linuxserver, ils utilisent généralement un utilisateur "abc" à l'intérieur du conteneur
 
 ### 2- Partie Samba:
 
