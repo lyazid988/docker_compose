@@ -13,8 +13,6 @@ L'idée du TP est de créer un fichier docker-compose, qui genere un ensemble de
 
 #### 1- Une image docker c'est quoi ?
 
-#### 2- Les images des differents services 
-
 ### III - Création du fichier docker-compose:
 
 ##  Docker-compose c'est quoi ? et comment ça fonctionne ?
