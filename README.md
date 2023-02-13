@@ -97,7 +97,7 @@ services:
   myapp:
     image: 'YOUR_APPLICATION_IMAGE'
     networks:
-      - app-tier
+      - local
     environment:
       - MINIO_SERVER_ACCESS_KEY=minio-access-key
       - MINIO_SERVER_SECRET_KEY=minio-secret-key
