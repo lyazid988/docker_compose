@@ -76,5 +76,30 @@ image : on precise l'image utilisé
 --PUID,PGID: Les variables PUID et PGID sont un moyen de translater un utilisateur à l'intérieur du conteneur vers un utilisateur sur l'hôte. Prenons Linuxserver, ils utilisent généralement un utilisateur "abc" à l'intérieur du conteneur
 
 ### 2- Partie minio:
+```yaml
+version: '2'
 
+networks:
+  app-tier:
+    driver: bridge
+
+services:
+  minio:
+    image: 'bitnami/minio:latest'
+    ports:
+      - '9000:9000'
+      - '9001:9001'
+    environment:
+      - MINIO_ROOT_USER=minio-root-user
+      - MINIO_ROOT_PASSWORD=minio-root-password
+    networks:
+      - app-tier
+  myapp:
+    image: 'YOUR_APPLICATION_IMAGE'
+    networks:
+      - app-tier
+    environment:
+      - MINIO_SERVER_ACCESS_KEY=minio-access-key
+      - MINIO_SERVER_SECRET_KEY=minio-secret-key
+```
 
